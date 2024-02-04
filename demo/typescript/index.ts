@@ -19,7 +19,7 @@ const humanConfig: Partial<H.Config> = { // user configuration for human, used t
   // warmup: 'none',
   // modelBasePath: '../../models',
   modelBasePath: 'https://vladmandic.github.io/human-models/models/',
-  filter: { enabled: false, equalization: false, flip: false },
+  filter: { enabled: true, equalization: false, flip: false },
   face: { enabled: true, detector: { rotation: false }, mesh: { enabled: false }, attention: { enabled: false }, iris: { enabled: false }, description: { enabled: true }, emotion: { enabled: true }, antispoof: { enabled: false }, liveness: { enabled: false } },
   body: { enabled: false },
   hand: { enabled: false },
