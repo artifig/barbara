@@ -59,8 +59,8 @@ export interface DrawOptions {
 
 /** currently set draw options {@link DrawOptions} */
 export const options: DrawOptions = {
-  color: 'rgba(173, 216, 230, 0.6)' as string, // 'lightblue' with light alpha channel
-  labelColor: 'rgba(173, 216, 230, 1)' as string, // 'lightblue' with dark alpha channel
+  color: 'rgba(255, 135, 0, 0.6)' as string, // 'orange' with light alpha channel
+  labelColor: 'rgba(255, 135, 0, 1)' as string, // 'orange' with dark alpha channel
   shadowColor: 'black' as string,
   alpha: 0.5 as number,
   font: 'small-caps 16px "Segoe UI"' as string,
