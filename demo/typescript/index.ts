@@ -31,6 +31,8 @@ const humanConfig: Partial<H.Config> = { // user configuration for human, used t
 const human = new H.Human(humanConfig); // create instance of human with overrides from user configuration
 
 human.env.perfadd = false; // is performance data showing instant or total values
+human.draw.options.color = 'rgba(255, 135, 0, 0.6)';
+human.draw.options.labelColor = 'rgba(255, 135, 0, 1)';
 human.draw.options.font = 'small-caps 18px "Lato"'; // set font used to draw labels when using draw methods
 human.draw.options.lineHeight = 20;
 human.draw.options.drawPoints = false; // draw points on face mesh
